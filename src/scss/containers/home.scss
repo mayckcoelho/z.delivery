@@ -1,0 +1,26 @@
+main .background {
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+.background__wrapper {
+  display: flex;
+  height: inherit;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: auto;
+}
+
+.background__wrapper__title {
+  padding: 0 20px;
+  text-align: center;
+  max-width: 400px;
+  font-weight: 400;
+
+  font-size: 3rem;
+  color: $color-accent;
+}

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render correctly snapshot match 1`] = `
+<main>
+  <section
+    className="background"
+  >
+    <div
+      className="background__wrapper"
+    >
+      <h1
+        className="background__wrapper__title"
+      >
+        Informe seu endereço e nós vamos encontrar as
+         
+        <strong>
+          melhores ofertas
+        </strong>
+      </h1>
+      <Home
+        handleAction={[Function]}
+      />
+    </div>
+  </section>
+  <Resume />
+  <Hero />
+</main>
+`;

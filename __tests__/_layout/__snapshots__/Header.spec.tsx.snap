@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly snapshot match 1`] = `
+<header>
+  <div
+    className="header__wrapper"
+  >
+    <img
+      alt="Z Delivery"
+      src="test-file-stub"
+    />
+    <div
+      className="header__search"
+    >
+      <InputSearch
+        handleClick={[Function]}
+        placeholder="Pesquisar..."
+      />
+    </div>
+  </div>
+</header>
+`;

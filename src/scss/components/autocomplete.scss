@@ -1,0 +1,47 @@
+.autocomplete {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 20px;
+  width: 50%;
+}
+
+.autocomplete__container {
+  width: 90%;
+}
+
+.autocomplete__dropdown {
+  position: absolute;
+  z-index: 100;
+  margin-top: 25px;
+  border-radius: 5px;
+  background-color: $color-white;
+  width: 45%;
+
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown__loading {
+  padding: 10px;
+  font-size: 1.8rem;
+}
+
+.suggestion__item {
+  padding: 5px 10px;
+  font-size: 1.8rem;
+}
+
+.suggestion__item .suggestion__item--active {
+  background-color: $color-white-hover;
+}
+
+@media (max-width: 768px) {
+  .autocomplete {
+    width: 100%;
+  }
+
+  .autocomplete__dropdown {
+    width: 90%;
+  }
+}

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render correctly snapshot match 1`] = `
+<footer>
+  <div
+    className="footer__wrapper"
+  >
+    <img
+      alt="Z Delivery"
+      src="test-file-stub"
+    />
+  </div>
+</footer>
+`;

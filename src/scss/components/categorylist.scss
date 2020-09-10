@@ -1,0 +1,23 @@
+.category__wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+
+  padding: 40px 0;
+  width: 90%;
+
+  margin: auto;
+}
+
+.category__card {
+  background-color: $color-white;
+  border-radius: 8px;
+  border: 1px solid $color-accent;
+  margin: 4px;
+  padding: 15px 0;
+
+  p {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}

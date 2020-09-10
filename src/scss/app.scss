@@ -1,0 +1,17 @@
+@import './settings/variables';
+
+@import './base/main';
+
+// containers...
+@import './containers/header';
+@import './containers/home';
+@import './containers/footer';
+
+// components...
+@import './components/autocomplete';
+@import './components/inputsearch';
+@import './components/hero';
+@import './components/resume';
+@import './components/card';
+@import './components/categorylist';
+@import './components/productlist';
